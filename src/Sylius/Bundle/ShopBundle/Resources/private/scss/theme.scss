@@ -173,7 +173,7 @@ header .ui.three.column.stackable.grid > .column:nth-child(3) .button span {
 
 #products.three.cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(3, minmax(240px, 1fr));
     gap: 30px;
     margin: 0 !important;
 }
@@ -326,7 +326,7 @@ header .ui.three.column.stackable.grid > .column:nth-child(3) .button span {
 
 .ui.four.doubling.cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(4, minmax(240px, 1fr));
     gap: 30px;
     margin: 0 !important;
 }
@@ -1330,4 +1330,8 @@ address {
     position: relative !important;
     width: 30px !important;
     padding: 7px 0 !important;
+}
+
+.text-break {
+    word-break: break-word;
 }

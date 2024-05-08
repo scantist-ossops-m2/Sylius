@@ -1,5 +1,39 @@
 # CHANGELOG FOR `1.13.X`
 
+## v1.13.0 (2024-04-23)
+
+#### Details
+
+- [#16128](https://github.com/Sylius/Sylius/issues/16128) Add twig 3.9.0 conflict ([@mpysiak](https://github.com/mpysiak))
+- [#16131](https://github.com/Sylius/Sylius/issues/16131) Revert conflict to twig/intl-extra ([@GSadee](https://github.com/GSadee))
+- [#16135](https://github.com/Sylius/Sylius/issues/16135) Add empty array check in ZoneRepository ([@mpysiak](https://github.com/mpysiak))
+- [#16143](https://github.com/Sylius/Sylius/issues/16143) [Maintenance] Add branch 2.0 to refactor build ([@Wojdylak](https://github.com/Wojdylak))
+- [#16134](https://github.com/Sylius/Sylius/issues/16134) Fix Sylius logo in READMEs of Bundles & Components ([@mpysiak](https://github.com/mpysiak))
+- [#16158](https://github.com/Sylius/Sylius/issues/16158) Update dead link in drivers.rst ([@binhuq](https://github.com/binhuq))
+- [#16147](https://github.com/Sylius/Sylius/issues/16147) [Maintenance] Remove unused reviews listener ([@NoResponseMate](https://github.com/NoResponseMate))
+- [#15384](https://github.com/Sylius/Sylius/issues/15384) [DX] Dispatch ui event to allow customize every choice in payment method selection ([@Jibbarth](https://github.com/Jibbarth))
+- [#15417](https://github.com/Sylius/Sylius/issues/15417) [DX][Checkout][ShippingMethod] Dispatch new ui events ([@Jibbarth](https://github.com/Jibbarth), [@GSadee](https://github.com/GSadee))
+- [#16157](https://github.com/Sylius/Sylius/issues/16157) [Maintenance][Configuration] Deprecate unused `options` configuration nodes ([@NoResponseMate](https://github.com/NoResponseMate))
+- [#16168](https://github.com/Sylius/Sylius/issues/16168) Fix setup command locale parameter update ([@TheMilek](https://github.com/TheMilek))
+
+## v1.13.0-RC.1 (2024-04-16)
+
+#### Details
+
+- [#16073](https://github.com/Sylius/Sylius/issues/16073) [API][Shop] Improve Order and Checkout tests ([@Wojdylak](https://github.com/Wojdylak))
+- [#16076](https://github.com/Sylius/Sylius/issues/16076) BUGFIX: [AdminBundle] #16031 wrap long text in notes section ([@crydotsnake](https://github.com/crydotsnake))
+- [#16086](https://github.com/Sylius/Sylius/issues/16086) [API][Maintenance] Remove unnecessary enabled option ([@Wojdylak](https://github.com/Wojdylak))
+- [#16085](https://github.com/Sylius/Sylius/issues/16085) [CS][DX] Refactor
+- [#16092](https://github.com/Sylius/Sylius/issues/16092) Minor correction of names ([@Wojdylak](https://github.com/Wojdylak))
+- [#16099](https://github.com/Sylius/Sylius/issues/16099) BUGFIX: [ShopBundle] #16068 wrap long text in product description ([@crydotsnake](https://github.com/crydotsnake))
+- [#16100](https://github.com/Sylius/Sylius/issues/16100) [Maintenance] Add firewall for image resolver ([@Wojdylak](https://github.com/Wojdylak))
+- [#16103](https://github.com/Sylius/Sylius/issues/16103) [Maintenance] Deprecate `SyliusLocaleEvents` ([@NoResponseMate](https://github.com/NoResponseMate))
+- [#16105](https://github.com/Sylius/Sylius/issues/16105) [Maintenance] Update upgrade file ([@Wojdylak](https://github.com/Wojdylak))
+- [#15510](https://github.com/Sylius/Sylius/issues/15510) [Documentation] Update docs/book/architecture/state_machine.rst ([@benbd5](https://github.com/benbd5), [@GSadee](https://github.com/GSadee))
+- [#15443](https://github.com/Sylius/Sylius/issues/15443) Use SyliusShop macros instead of SyliusUi in shop templates ([@maximehuran](https://github.com/maximehuran))
+- [#15876](https://github.com/Sylius/Sylius/issues/15876) [ECS] Add The Nullable Type Declaration For Default Null Value Fixer Rule ([@Rafikooo](https://github.com/Rafikooo))
+- [#16125](https://github.com/Sylius/Sylius/issues/16125) [Documentation] Update release dates for 1.13 and 2.0 versions ([@GSadee](https://github.com/GSadee))
+
 ## v1.13.0-BETA.1 (2024-04-02)
 
 #### Details
